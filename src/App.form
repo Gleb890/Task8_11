@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="5" bottom="10" right="5"/>
+    <constraints>
+      <xy x="20" y="7" width="607" height="413"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="86018" class="javax.swing.JButton" binding="addRowButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Добавить строку"/>
+        </properties>
+      </component>
+      <scrollpane id="ebeea">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a448d" class="javax.swing.JTable" binding="Table">
+            <constraints/>
+            <properties>
+              <preferredScrollableViewportSize width="450" height="200"/>
+              <showVerticalLines value="true"/>
+              <updateSelectionOnSort value="true"/>
+            </properties>
+            <clientProperties>
+              <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="66a45" class="javax.swing.JButton" binding="loadFromFileButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Загрузить данные из файла"/>
+        </properties>
+      </component>
+      <component id="b0029" class="javax.swing.JButton" binding="deleteColumnButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Удалить столбец"/>
+        </properties>
+      </component>
+      <component id="618c8" class="javax.swing.JButton" binding="getResultButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Получить результат"/>
+        </properties>
+      </component>
+      <component id="172fc" class="javax.swing.JButton" binding="deleteRowButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Удалить строку"/>
+        </properties>
+      </component>
+      <component id="ea126" class="javax.swing.JButton" binding="addColumnButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Добавить столбец"/>
+        </properties>
+      </component>
+      <scrollpane id="e9e66">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2ec48" class="javax.swing.JTable" binding="Result">
+            <constraints/>
+            <properties>
+              <preferredScrollableViewportSize width="450" height="200"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="301a" class="javax.swing.JComboBox" binding="Rotate">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="right"/>
+            <item value="left"/>
+          </model>
+        </properties>
+      </component>
+      <component id="196bf" class="javax.swing.JButton" binding="LoadResultToFileButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Загрузить результат в файл"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
